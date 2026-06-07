@@ -1,0 +1,11 @@
+# Cloudflare Pages redirects — Buana Raya Express
+# Kanonikalisasi www -> non-www (301 permanen)
+https://www.buanaraya.com/*  https://buanaraya.com/:splat  301!
+
+# Sisa URL WordPress lama yang mungkin terindeks
+/feed/                       /                              301
+/feed                        /                              301
+/wp-login.php                /                              301
+/wp-admin/*                  /                              301
+# Halaman attachment lama -> halaman induk terdekat (sesuaikan bila perlu)
+/?p=*                        /                              301

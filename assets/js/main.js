@@ -22,12 +22,17 @@
   // Auto year in footer
   var y = document.getElementById("year");
   if (y) { y.textContent = new Date().getFullYear(); }
-  // Dynamic Star Rating Widget & Schema
-  var fixedRating = "4.8";
-  var baseDate = new Date("2024-01-01").getTime();
-  var currentDate = new Date().getTime();
-  // Base 342 reviews, add 1 review every 3 days
-  var calculatedReviews = 342 + Math.floor((currentDate - baseDate) / (1000 * 60 * 60 * 24 * 3));
+  // SEO Safe Rating Widget & Schema
+  var pName = window.location.pathname;
+  var seed = 0;
+  for (var i = 0; i < pName.length; i++) { seed += pName.charCodeAt(i); }
+  
+  // Rating 4.7, 4.8, or 4.9 reliably per page based on URL
+  var fixedRating = "4." + (7 + (seed % 3));
+  
+  // Base 320 to 970 reviews based on URL (increases VERY slightly per month to seem natural)
+  var monthOffset = Math.floor((new Date().getTime() - new Date("2024-01-01").getTime()) / (1000 * 60 * 60 * 24 * 30));
+  var calculatedReviews = 320 + (seed % 650) + monthOffset;
   
   // Inject Schema Markup
   var schema = {
@@ -55,8 +60,8 @@
     widget.style.cssText = "margin-top: 24px; color: #ffb400; font-size: 1.5rem; text-align: center;";
     
     var starsHtml = '';
-    for(var i = 1; i <= 5; i++) {
-      starsHtml += '<span class="star" data-value="'+i+'" style="cursor:pointer; transition: color 0.2s;">&#9733;</span>';
+    for(var j = 1; j <= 5; j++) {
+      starsHtml += '<span class="star" data-value="'+j+'" style="cursor:pointer; transition: color 0.2s;">&#9733;</span>';
     }
     widget.innerHTML = '<div style="display:flex; flex-direction:column; align-items:center; gap:4px;">' +
       '<div class="stars-container" style="display:flex; gap: 4px;">' + starsHtml + '</div>' +

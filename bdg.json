@@ -1,0 +1,654 @@
+[
+  {
+    "kota": "Adaro",
+    "min": "50"
+  },
+  {
+    "kota": "Ambon",
+    "min": "100"
+  },
+  {
+    "kota": "Ampah",
+    "min": "50"
+  },
+  {
+    "kota": "Amuntai",
+    "min": "50"
+  },
+  {
+    "kota": "Asam Asam",
+    "min": "50"
+  },
+  {
+    "kota": "Atambua",
+    "min": "100"
+  },
+  {
+    "kota": "Bajawa",
+    "min": "100"
+  },
+  {
+    "kota": "Balikpapan",
+    "min": "10"
+  },
+  {
+    "kota": "Banggai",
+    "min": "100"
+  },
+  {
+    "kota": "Banggai Kpln",
+    "min": "100"
+  },
+  {
+    "kota": "Banjarbaru",
+    "min": "30"
+  },
+  {
+    "kota": "Banjarmasin",
+    "min": "10"
+  },
+  {
+    "kota": "Bantaeng",
+    "min": "50"
+  },
+  {
+    "kota": "Baraibai",
+    "min": "50"
+  },
+  {
+    "kota": "Barru",
+    "min": "100"
+  },
+  {
+    "kota": "Batam",
+    "min": "100"
+  },
+  {
+    "kota": "Bati Bati",
+    "min": "50"
+  },
+  {
+    "kota": "Batu Licin",
+    "min": "50"
+  },
+  {
+    "kota": "Batukajang",
+    "min": "50"
+  },
+  {
+    "kota": "Bau-Bau",
+    "min": "50"
+  },
+  {
+    "kota": "Bengkayang",
+    "min": "10"
+  },
+  {
+    "kota": "Berau",
+    "min": "100"
+  },
+  {
+    "kota": "Biak",
+    "min": "100"
+  },
+  {
+    "kota": "Bima",
+    "min": "100"
+  },
+  {
+    "kota": "Binuang Tapin",
+    "min": "50"
+  },
+  {
+    "kota": "Bitung",
+    "min": "50"
+  },
+  {
+    "kota": "Bolaang Uki Mngndow Sltn",
+    "min": "100"
+  },
+  {
+    "kota": "Bombana",
+    "min": "100"
+  },
+  {
+    "kota": "Bone",
+    "min": "50"
+  },
+  {
+    "kota": "Bontang",
+    "min": "20"
+  },
+  {
+    "kota": "Boroko Mongondow Utara",
+    "min": "100"
+  },
+  {
+    "kota": "Bulukumba",
+    "min": "50"
+  },
+  {
+    "kota": "Buntok",
+    "min": "50"
+  },
+  {
+    "kota": "Buol",
+    "min": "100"
+  },
+  {
+    "kota": "Buton",
+    "min": "100"
+  },
+  {
+    "kota": "Buton Utara",
+    "min": "100"
+  },
+  {
+    "kota": "Denpasar",
+    "min": "20"
+  },
+  {
+    "kota": "Donggala",
+    "min": "100"
+  },
+  {
+    "kota": "Ende",
+    "min": "100"
+  },
+  {
+    "kota": "Enrekang",
+    "min": "50"
+  },
+  {
+    "kota": "Fak Fak",
+    "min": "100"
+  },
+  {
+    "kota": "Gorontalo",
+    "min": "50"
+  },
+  {
+    "kota": "Gowa",
+    "min": "50"
+  },
+  {
+    "kota": "Handil",
+    "min": "50"
+  },
+  {
+    "kota": "Jakarta",
+    "min": ""
+  },
+  {
+    "kota": "Jayapura",
+    "min": "50"
+  },
+  {
+    "kota": "Jeneponto",
+    "min": "50"
+  },
+  {
+    "kota": "Kaimana",
+    "min": "100"
+  },
+  {
+    "kota": "Kandangan",
+    "min": "50"
+  },
+  {
+    "kota": "Kefamenanu",
+    "min": "100"
+  },
+  {
+    "kota": "Kendari",
+    "min": "20"
+  },
+  {
+    "kota": "Ketapang",
+    "min": "10"
+  },
+  {
+    "kota": "Kintab",
+    "min": "50"
+  },
+  {
+    "kota": "Kolaka",
+    "min": "50"
+  },
+  {
+    "kota": "Kolaka Utara",
+    "min": "100"
+  },
+  {
+    "kota": "Konawe",
+    "min": "100"
+  },
+  {
+    "kota": "Konawe Sltn",
+    "min": "100"
+  },
+  {
+    "kota": "Konawe Utara",
+    "min": "100"
+  },
+  {
+    "kota": "Kota Baru",
+    "min": "50"
+  },
+  {
+    "kota": "Kotamobago",
+    "min": "100"
+  },
+  {
+    "kota": "Kpln Taulud",
+    "min": "200"
+  },
+  {
+    "kota": "Kuala Kapuas",
+    "min": "50"
+  },
+  {
+    "kota": "Kupang",
+    "min": "100"
+  },
+  {
+    "kota": "Kurau",
+    "min": "50"
+  },
+  {
+    "kota": "Labuhan Bajo",
+    "min": "100"
+  },
+  {
+    "kota": "Luwu Timur Sulsel",
+    "min": "150"
+  },
+  {
+    "kota": "Luwu Utara Sulsel",
+    "min": "150"
+  },
+  {
+    "kota": "Luwuk (Sulteng)",
+    "min": "50"
+  },
+  {
+    "kota": "Majene",
+    "min": "50"
+  },
+  {
+    "kota": "Makale Tana Toraja",
+    "min": "50"
+  },
+  {
+    "kota": "Makassar",
+    "min": "10"
+  },
+  {
+    "kota": "Mamasa",
+    "min": "50"
+  },
+  {
+    "kota": "Mamili",
+    "min": "50"
+  },
+  {
+    "kota": "Mamuju",
+    "min": "50"
+  },
+  {
+    "kota": "Mamuju Utara",
+    "min": "50"
+  },
+  {
+    "kota": "Manado",
+    "min": "20"
+  },
+  {
+    "kota": "Manokwari",
+    "min": "100"
+  },
+  {
+    "kota": "Marabahan",
+    "min": "50"
+  },
+  {
+    "kota": "Maros",
+    "min": "50"
+  },
+  {
+    "kota": "Martapura",
+    "min": "50"
+  },
+  {
+    "kota": "Massamba",
+    "min": "50"
+  },
+  {
+    "kota": "Mataram",
+    "min": "50"
+  },
+  {
+    "kota": "Maumere",
+    "min": "100"
+  },
+  {
+    "kota": "Melak",
+    "min": "100"
+  },
+  {
+    "kota": "Mempawah",
+    "min": "50"
+  },
+  {
+    "kota": "Merauke",
+    "min": "100"
+  },
+  {
+    "kota": "Minahasa",
+    "min": "100"
+  },
+  {
+    "kota": "Minahasa Sltn",
+    "min": "100"
+  },
+  {
+    "kota": "Minahasa Tenggra",
+    "min": "100"
+  },
+  {
+    "kota": "Minahasa Utra",
+    "min": "100"
+  },
+  {
+    "kota": "Mobagu Bolaang Mongondow",
+    "min": "100"
+  },
+  {
+    "kota": "Morowali",
+    "min": "100"
+  },
+  {
+    "kota": "Muara Teweh",
+    "min": "50"
+  },
+  {
+    "kota": "Muarabadak",
+    "min": "50"
+  },
+  {
+    "kota": "Nabire",
+    "min": "100"
+  },
+  {
+    "kota": "Nunukan",
+    "min": "100"
+  },
+  {
+    "kota": "Pagatan",
+    "min": "50"
+  },
+  {
+    "kota": "Palangkaraya",
+    "min": "30"
+  },
+  {
+    "kota": "Palopo",
+    "min": "30"
+  },
+  {
+    "kota": "Palu",
+    "min": "30"
+  },
+  {
+    "kota": "Pangkalanbun",
+    "min": "30"
+  },
+  {
+    "kota": "Pangkep",
+    "min": "50"
+  },
+  {
+    "kota": "Pare-Pare",
+    "min": "50"
+  },
+  {
+    "kota": "Parigi",
+    "min": "100"
+  },
+  {
+    "kota": "Paser",
+    "min": "50"
+  },
+  {
+    "kota": "Pelaihari",
+    "min": "50"
+  },
+  {
+    "kota": "Penajam",
+    "min": "50"
+  },
+  {
+    "kota": "Pinrang",
+    "min": "50"
+  },
+  {
+    "kota": "Polewali",
+    "min": "50"
+  },
+  {
+    "kota": "Pomala",
+    "min": "50"
+  },
+  {
+    "kota": "Pontianak",
+    "min": "10"
+  },
+  {
+    "kota": "Poso",
+    "min": "50"
+  },
+  {
+    "kota": "Pulau Laut",
+    "min": "50"
+  },
+  {
+    "kota": "Pulau Sumba",
+    "min": "100"
+  },
+  {
+    "kota": "Purucahu",
+    "min": "50"
+  },
+  {
+    "kota": "Putussibau",
+    "min": "10"
+  },
+  {
+    "kota": "Raha",
+    "min": "100"
+  },
+  {
+    "kota": "Rantau",
+    "min": "50"
+  },
+  {
+    "kota": "Rutteng",
+    "min": "100"
+  },
+  {
+    "kota": "Samarinda",
+    "min": "10"
+  },
+  {
+    "kota": "Sambas",
+    "min": "50"
+  },
+  {
+    "kota": "Sampit",
+    "min": "50"
+  },
+  {
+    "kota": "Sangatta",
+    "min": "20"
+  },
+  {
+    "kota": "Sanggau",
+    "min": "50"
+  },
+  {
+    "kota": "Sangihe Taulud",
+    "min": "200"
+  },
+  {
+    "kota": "Satui",
+    "min": "50"
+  },
+  {
+    "kota": "Sedawar",
+    "min": "100"
+  },
+  {
+    "kota": "Selayar",
+    "min": "100"
+  },
+  {
+    "kota": "Selong",
+    "min": "100"
+  },
+  {
+    "kota": "Sengkang",
+    "min": "100"
+  },
+  {
+    "kota": "Sidrap",
+    "min": "50"
+  },
+  {
+    "kota": "Sigi",
+    "min": "100"
+  },
+  {
+    "kota": "Sidenreng Rappang",
+    "min": "50"
+  },
+  {
+    "kota": "Singkawang",
+    "min": "10"
+  },
+  {
+    "kota": "Sinjai",
+    "min": "50"
+  },
+  {
+    "kota": "Sintang",
+    "min": "10"
+  },
+  {
+    "kota": "Soppeng",
+    "min": "50"
+  },
+  {
+    "kota": "Soroako",
+    "min": "100"
+  },
+  {
+    "kota": "Sorong",
+    "min": "100"
+  },
+  {
+    "kota": "Sumbawa Besar",
+    "min": "100"
+  },
+  {
+    "kota": "Sunggu Minahasa",
+    "min": "50"
+  },
+  {
+    "kota": "Surabaya",
+    "min": "5"
+  },
+  {
+    "kota": "Takalar",
+    "min": "50"
+  },
+  {
+    "kota": "Takisung",
+    "min": "50"
+  },
+  {
+    "kota": "Taliwang",
+    "min": "100"
+  },
+  {
+    "kota": "Toraja Utara Rantepao",
+    "min": "50"
+  },
+  {
+    "kota": "Tanah Laut",
+    "min": "50"
+  },
+  {
+    "kota": "Tanahgrogot",
+    "min": "50"
+  },
+  {
+    "kota": "Tanjung Tabalong",
+    "min": "50"
+  },
+  {
+    "kota": "Tanjungredep",
+    "min": "100"
+  },
+  {
+    "kota": "Tanjungselor",
+    "min": "100"
+  },
+  {
+    "kota": "Tapil",
+    "min": "100"
+  },
+  {
+    "kota": "Tarakan",
+    "min": "20"
+  },
+  {
+    "kota": "Tengarong",
+    "min": "50"
+  },
+  {
+    "kota": "Ternate",
+    "min": "100"
+  },
+  {
+    "kota": "Timika",
+    "min": "100"
+  },
+  {
+    "kota": "Tojo Una-Una",
+    "min": "100"
+  },
+  {
+    "kota": "Toli-Toli",
+    "min": "100"
+  },
+  {
+    "kota": "Tomohon",
+    "min": "50"
+  },
+  {
+    "kota": "Tual",
+    "min": "100"
+  },
+  {
+    "kota": "Tutuyan Mongondow Timur",
+    "min": "100"
+  },
+  {
+    "kota": "Waingapu",
+    "min": "100"
+  },
+  {
+    "kota": "Wakatobi",
+    "min": "100"
+  }
+]

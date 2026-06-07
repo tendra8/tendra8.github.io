@@ -12,7 +12,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname } from "node:path";
 
-const SITE = "https://buanaraya.com";
+const SITE = "https://tendra8.github.io/buanaweb";
 const WA_BDG = "6282130200030";   // 0821-30-2000-30
 const WA_JKT = "628128956660";    // 0812-8956-660
 const WA_SBY = "6281217812900";   // 0812-1781-2900
@@ -1134,7 +1134,7 @@ console.log("✓ robots.txt");
 
 writeFileSync("_redirects", `# Cloudflare Pages redirects — Buana Raya Express
 # Kanonikalisasi www -> non-www (301 permanen)
-https://www.buanaraya.com/*  https://buanaraya.com/:splat  301!
+https://www.buanaraya.com/*  https://tendra8.github.io/buanaweb/:splat  301!
 
 # Sisa URL WordPress lama yang mungkin terindeks
 /feed/                       /                              301

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://buanaraya.com/sitemap.xml
+Sitemap: https://tendra8.github.io/buanaweb/sitemap.xml

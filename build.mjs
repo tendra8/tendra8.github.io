@@ -915,27 +915,35 @@ write("", shell({
 /* TENTANG KAMI */
 write("tentang-kami", staticPage({
   slug: "tentang-kami", active: "tentang",
-  title: "Tentang Buana Raya Express — Jasa Kargo &amp; Ekspedisi Terpercaya",
-  description: "Mengenal PT Buana Raya Express, perusahaan jasa pengiriman barang, paket, dan kargo via udara, laut, dan darat dengan armada sendiri dan cabang di Bandung, Jakarta, Surabaya.",
+  title: "Tentang PT Buana Raya Express — Ekspedisi Kargo Terpercaya se-Indonesia",
+  description: "PT Buana Raya Express: jasa pengiriman barang, paket, kargo, kendaraan, pindahan, dan barang cair via udara, laut, darat. Berpengalaman puluhan tahun, armada sendiri, cabang di Bandung, Jakarta, Surabaya.",
   jsonldGraph: breadcrumb([{ name: "Beranda", url: `${SITE}/` }, { name: "Tentang Kami", url: `${SITE}/tentang-kami/` }]),
   body: `${crumbNav([{ name: "Beranda", path: "/" }, { name: "Tentang Kami" }])}
   <section class="section"><div class="container narrow prose">
-    <h1>Tentang Buana Raya Express</h1>
-    <p class="lead">PT Buana Raya Express adalah perusahaan jasa pengiriman barang, paket, dan kargo yang melayani pengiriman ke seluruh Indonesia melalui jalur udara, laut, dan darat.</p>
-    <p>Berbekal pengalaman bertahun-tahun di bidang ekspedisi, Buana Raya Express tumbuh menjadi mitra pengiriman yang dipercaya oleh perorangan maupun pelaku usaha. Kami memahami bahwa setiap kiriman — baik paket kecil maupun kargo besar — adalah amanah yang harus tiba dengan aman dan tepat waktu.</p>
-    <h2>Visi &amp; Komitmen Kami</h2>
-    <p>Visi kami: menjadi jasa pengiriman antar pulau yang paling diandalkan dengan tarif bersaing dan pelayanan ramah. Kami menangani setiap barang secara profesional, dari penerimaan di kantor cabang hingga tiba di kota tujuan.</p>
+    <h1>Tentang PT Buana Raya Express</h1>
+    <p class="lead">PT Buana Raya Express adalah perusahaan jasa ekspedisi pengiriman barang, paket, dan kargo yang berpengalaman dalam jasa transportasi barang ke seluruh Indonesia melalui jalur udara, laut, dan darat.</p>
+    <p>Anda dapat mempercayakan barang Anda kepada kami — dengan berbekal pengalaman dan staf berdedikasi, barang Anda akan sampai di tujuan dengan <strong>aman, tepat waktu, dan biaya yang bersaing</strong>. Kami siap melayani pengiriman barang melalui darat maupun laut dengan kapal cepat ke seluruh wilayah nusantara.</p>
+    <h2>Jenis Barang yang Kami Layani</h2>
+    <p>Buana Raya Express berpengalaman menangani berbagai jenis kiriman, di antaranya:</p>
+    <ul>
+      <li>Pengiriman <strong>peralatan berat</strong> dan mesin industri</li>
+      <li>Pengiriman <strong>gerobak / rombong</strong> usaha</li>
+      <li>Pengiriman <strong>tekstil dan konveksi</strong></li>
+      <li>Pengiriman <strong>kendaraan bermotor</strong> (motor, mobil)</li>
+      <li>Pengiriman <strong>mesin dan onderdil</strong>, ringan maupun berat</li>
+      <li>Jasa <strong>pindahan rumah</strong> antar pulau</li>
+      <li>Jasa <strong>kirim barang cair</strong> ke seluruh Indonesia</li>
+      <li>Paket pribadi hingga kargo bisnis dalam jumlah besar</li>
+    </ul>
     <h2>Kenapa Buana Raya Express?</h2>
     <ul>
-      <li><strong>Armada sendiri</strong> sehingga jadwal dan kualitas pengiriman lebih terkontrol.</li>
-      <li><strong>Kantor cabang resmi</strong> di Bandung, Jakarta, dan Surabaya.</li>
-      <li><strong>Multi-moda</strong> via udara (cepat), laut (ekonomis), dan darat.</li>
-      <li><strong>Jangkauan luas</strong> ke 200+ kota, fokus Kalimantan, Sulawesi, Bali, dan Papua.</li>
-      <li><strong>Layanan lengkap</strong> termasuk pengiriman kendaraan/motor, barang cair, dan packing kayu.</li>
+      <li><strong>Armada transportasi sendiri</strong> — jadwal dan kualitas lebih terkontrol.</li>
+      <li><strong>Kantor cabang resmi</strong> di kota asal pengiriman (Bandung, Jakarta, Surabaya).</li>
+      <li><strong>Multi-moda</strong>: udara (tercepat), laut (ekonomis untuk kargo besar), darat.</li>
+      <li><strong>Jangkauan 200+ kota</strong> — fokus ke <a href="/kota-dan-kabupaten-di-pulau-kalimantan/">Kalimantan</a>, <a href="/kabupaten-dan-kota-di-pulau-sulawesi/">Sulawesi</a>, Bali, dan <a href="/kota-dan-kabupaten-di-pulau-papua/">Papua</a>.</li>
     </ul>
-    <div class="callout"><strong>Butuh kirim barang sekarang?</strong> Hubungi WhatsApp <a href="${WA_DEFAULT}">0821-30-2000-30</a>.</div>
-    <h2>Jangkauan Layanan</h2>
-    <p>Kami melayani pengiriman dari Bandung, Jakarta, dan Surabaya ke kota besar di <a href="/kota-dan-kabupaten-di-pulau-kalimantan/">Kalimantan</a>, <a href="/kabupaten-dan-kota-di-pulau-sulawesi/">Sulawesi</a>, Bali, dan <a href="/kota-dan-kabupaten-di-pulau-papua/">Papua</a>. Lihat <a href="/tarif/">daftar tarif</a> untuk kota tujuan dan estimasi ongkir.</p>
+    <p>Rute yang sering kami layani antara lain: pengiriman ke <a href="/pengiriman-paket-bandung-pontianak-murah-cepat/">Pontianak</a>, <a href="/kirim-paket-bandung-makassar-ongkir-murah/">Makassar</a>, <a href="/kirim-barang-bandung-balikpapan/">Balikpapan</a>, <a href="/pengiriman-bandung-ke-samarinda/">Samarinda</a>, <a href="/kargo-pengiriman-bandung-banjarmasin/">Banjarmasin</a>, Surabaya, Jakarta, dan ratusan kota lainnya.</p>
+    <div class="callout"><strong>Butuh kirim barang sekarang?</strong> Hubungi WhatsApp <a href="${WA_DEFAULT}">0821-30-2000-30</a> atau lihat <a href="/tarif/">daftar tarif ongkir</a>.</div>
   </div></section>
   ${ctaBand("Mari Kirim Bersama Buana Raya Express")}`,
 }));
@@ -949,40 +957,51 @@ write("layanan", staticPage({
     {"@type":"Service","serviceType":"Jasa pengiriman barang, paket, dan kargo","provider":{"@id":"${SITE}/#organization"},"areaServed":"Indonesia","description":"Pengiriman via udara, laut, dan darat, termasuk pengiriman kendaraan, barang cair, dan packing kayu."}`,
   body: `${crumbNav([{ name: "Beranda", path: "/" }, { name: "Layanan" }])}
   <section class="section"><div class="container narrow prose">
-    <h1>Layanan Pengiriman Buana Raya Express</h1>
-    <p class="lead">Solusi pengiriman lengkap via udara, laut, dan darat untuk perorangan maupun bisnis.</p>
+    <h1>Layanan Pengiriman Ekspedisi Buana Raya Express</h1>
+    <p class="lead">Solusi pengiriman lengkap via udara, laut, dan darat untuk perorangan maupun bisnis — dari paket kecil hingga kargo proyek besar.</p>
   </div>
   <div class="container"><div class="grid grid-3" style="margin-top:10px">
-    <div class="card"><div class="ico">✈️</div><h3>Kargo Udara</h3><p class="muted">Pengiriman tercepat via pesawat untuk barang yang ditunggu atau mudah rusak.</p></div>
-    <div class="card"><div class="ico">🚢</div><h3>Kargo Laut</h3><p class="muted">Pilihan ekonomis untuk barang berat dan volume besar dengan kapal cepat.</p></div>
-    <div class="card"><div class="ico">🚚</div><h3>Kargo Darat</h3><p class="muted">Pengiriman via truk dan ekspedisi darat antar kota dan antar pulau.</p></div>
-    <div class="card"><div class="ico">🏍️</div><h3>Pengiriman Kendaraan</h3><p class="muted">Kirim motor dan kendaraan dengan penanganan khusus dan aman.</p></div>
-    <div class="card"><div class="ico">🛢️</div><h3>Barang Cair</h3><p class="muted">Penanganan khusus untuk pengiriman barang cair sesuai ketentuan.</p></div>
-    <div class="card"><div class="ico">📦</div><h3>Packing Kayu</h3><p class="muted">Jasa pengemasan dan packing kayu agar barang lebih terlindungi.</p></div>
+    <div class="card"><div class="ico">✈️</div><h3>Kargo Udara</h3><p class="muted">Pengiriman tercepat via pesawat untuk barang yang ditunggu, mudah rusak, atau bernilai tinggi. Estimasi 1–3 hari.</p></div>
+    <div class="card"><div class="ico">🚢</div><h3>Kargo Laut</h3><p class="muted">Pilihan paling ekonomis untuk barang berat dan volume besar menggunakan kapal cepat antar pulau.</p></div>
+    <div class="card"><div class="ico">🚚</div><h3>Kargo Darat</h3><p class="muted">Pengiriman via truk dan ekspedisi darat antar kota dan antar pulau (termasuk penyeberangan ferry).</p></div>
+    <div class="card"><div class="ico">🏍️</div><h3>Pengiriman Kendaraan</h3><p class="muted">Kirim motor dan kendaraan dengan penanganan dan pengamanan khusus, aman sampai tujuan.</p></div>
+    <div class="card"><div class="ico">🛢️</div><h3>Barang Cair</h3><p class="muted">Jasa kirim barang cair ke Kalimantan, Sulawesi, dan seluruh Indonesia dengan penanganan sesuai ketentuan.</p></div>
+    <div class="card"><div class="ico">📦</div><h3>Packing &amp; Kemasan Kayu</h3><p class="muted">Jasa pengemasan dus dan packing kayu/peti kayu agar barang lebih aman selama pengiriman.</p></div>
+    <a class="card card--link" href="/buana-express-link/"><div class="ico">🏙️</div><h3>Kurir Dalam Kota</h3><p class="muted">Layanan kurir dokumen dan paket dalam kota Bandung (BEL). Klik untuk info lengkap.</p></a>
   </div></div>
   <div class="container narrow prose" style="margin-top:30px">
     <h2>Pengiriman ke Seluruh Indonesia</h2>
-    <p>Buana Raya Express melayani pengiriman dari Bandung, Jakarta, dan Surabaya ke <a href="/kota-dan-kabupaten-di-pulau-kalimantan/">Kalimantan</a>, <a href="/kabupaten-dan-kota-di-pulau-sulawesi/">Sulawesi</a>, Bali, dan <a href="/kota-dan-kabupaten-di-pulau-papua/">Papua</a>. Lihat <a href="/tarif/">daftar tarif</a> untuk informasi ongkir.</p>
+    <p>Buana Raya Express melayani pengiriman dari Bandung, Jakarta, dan Surabaya ke <a href="/kota-dan-kabupaten-di-pulau-kalimantan/">Kalimantan</a>, <a href="/kabupaten-dan-kota-di-pulau-sulawesi/">Sulawesi</a>, Bali, dan <a href="/kota-dan-kabupaten-di-pulau-papua/">Papua</a>. Termasuk pengiriman peralatan berat, gerobak usaha, tekstil, mesin-onderdil, pindahan rumah, dan barang cair.</p>
+    <p>Lihat <a href="/tarif/">daftar tarif ongkir</a> atau hubungi cabang kami untuk konsultasi.</p>
   </div></section>
   ${ctaBand()}`,
+
 }));
 
 /* CABANG */
 write("cabang", staticPage({
   slug: "cabang", active: "cabang",
-  title: "Kantor Cabang Buana Raya Express — Bandung, Jakarta, Surabaya",
-  description: "Alamat dan kontak kantor cabang Buana Raya Express di Bandung (Jl. Jamika 136), Jakarta (Jl. Wedana 24), dan Surabaya (Jl. Undaan Kulon 119). Hubungi WA untuk pengiriman.",
+  title: "Kantor Cabang Buana Raya Express — Bandung, Jakarta, Surabaya, Balikpapan, Makassar, Samarinda, Banjarmasin",
+  description: "Alamat lengkap kantor cabang Buana Raya Express: Bandung (Jl. Jamika 136), Jakarta (Jl. Wedana 24), Surabaya (Jl. Undaan Kulon 119), Balikpapan, Makassar, Samarinda, dan Banjarmasin.",
   jsonldGraph: `${breadcrumb([{ name: "Beranda", url: `${SITE}/` }, { name: "Cabang", url: `${SITE}/cabang/` }])},
     {"@type":"LocalBusiness","name":"Buana Raya Express — Cabang Bandung","telephone":"+62-821-3020-0030","image":"${SITE}/assets/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"Jl. Jamika No. 136","addressLocality":"Bandung","addressRegion":"Jawa Barat","addressCountry":"ID"},"priceRange":"$$"},
     {"@type":"LocalBusiness","name":"Buana Raya Express — Cabang Jakarta","telephone":"+62-812-8956-660","image":"${SITE}/assets/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"Jl. Wedana No. 24","addressLocality":"Jakarta","addressRegion":"DKI Jakarta","addressCountry":"ID"},"priceRange":"$$"},
     {"@type":"LocalBusiness","name":"Buana Raya Express — Cabang Surabaya","telephone":"+62-812-1781-2900","image":"${SITE}/assets/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"Jl. Undaan Kulon No. 119","addressLocality":"Surabaya","addressRegion":"Jawa Timur","addressCountry":"ID"},"priceRange":"$$"}`,
   body: `${crumbNav([{ name: "Beranda", path: "/" }, { name: "Cabang" }])}
   <section class="section"><div class="container">
-    <div class="narrow prose"><h1>Kantor Cabang Buana Raya Express</h1><p class="lead">Kunjungi atau hubungi cabang terdekat untuk mengirim barang Anda.</p></div>
-    <div class="grid grid-3" style="margin-top:20px">
-      <div class="branch"><h3>Bandung</h3><address>Jl. Jamika No. 136<br>Bandung, Jawa Barat</address><p>Telp/WA: 0821-30-2000-30</p><a class="btn btn--wa" href="${waLink(WA_BDG, "Halo, saya mau kirim barang dari Bandung")}">Chat WhatsApp</a></div>
-      <div class="branch"><h3>Jakarta</h3><address>Jl. Wedana No. 24<br>Jakarta</address><p>Telp: (021) 628-2128 · WA: 0812-8956-660</p><a class="btn btn--wa" href="${waLink(WA_JKT, "Halo, saya mau kirim barang dari Jakarta")}">Chat WhatsApp</a></div>
-      <div class="branch"><h3>Surabaya</h3><address>Jl. Undaan Kulon No. 119<br>Surabaya, Jawa Timur</address><p>Telp: (031) 535-1525 · WA: 0812-1781-2900</p><a class="btn btn--wa" href="${waLink(WA_SBY, "Halo, saya mau kirim barang dari Surabaya")}">Chat WhatsApp</a></div>
+    <div class="narrow prose"><h1>Kantor Cabang Buana Raya Express</h1><p class="lead">Kami memiliki kantor cabang di berbagai kota untuk memudahkan pengiriman barang Anda ke seluruh Indonesia.</p></div>
+    <h2 class="center" style="margin:32px 0 16px">Cabang Kota Asal Pengiriman</h2>
+    <div class="grid grid-3" style="margin-top:8px">
+      <div class="branch"><h3>Bandung</h3><address>Jl. Jamika No. 136<br>Bandung, Jawa Barat</address><p>Telp/WA: 0821-30-2000-30<br>Jam: Senin–Jumat 08.00–18.00, Sabtu 08.00–17.00</p><a class="btn btn--wa" href="${waLink(WA_BDG, "Halo, saya mau kirim barang dari Bandung")}">Chat WhatsApp</a><p style="margin-top:10px"><a href="https://www.google.com/maps/place/Buana+Raya+Express+-+Bandung/@-6.925031,107.585334,17z/data=!3m1!4b1!4m2!3m1!1s0x2e68e60348bce03d:0xc190ab7e5f0b830" target="_blank" rel="noopener nofollow">📍 Lihat di Google Maps</a></p></div>
+      <div class="branch"><h3>Jakarta</h3><address>Jl. Wedana No. 24 (Sawah Besar)<br>Jakarta</address><p>Telp: (021) 628-2128, 350-0762, 352-1333<br>WA: 0812-8956-660</p><a class="btn btn--wa" href="${waLink(WA_JKT, "Halo, saya mau kirim barang dari Jakarta")}">Chat WhatsApp</a><p style="margin-top:10px"><a href="https://www.google.com/maps?q=Jl+Wedana+No+24+Sawah+Besar+Jakarta" target="_blank" rel="noopener nofollow">📍 Lihat di Google Maps</a></p></div>
+      <div class="branch"><h3>Surabaya</h3><address>Jl. Undaan Kulon No. 119<br>Surabaya, Jawa Timur</address><p>Telp: (031) 535-1525, 532-1215<br>WA: 0812-1781-2900</p><a class="btn btn--wa" href="${waLink(WA_SBY, "Halo, saya mau kirim barang dari Surabaya")}">Chat WhatsApp</a><p style="margin-top:10px"><a href="https://goo.gl/maps/ETGwWd9u8AXnydLd7" target="_blank" rel="noopener nofollow">📍 Lihat di Google Maps</a></p></div>
+    </div>
+    <h2 class="center" style="margin:40px 0 16px">Cabang Kota Tujuan</h2>
+    <div class="grid grid-4" style="margin-top:8px">
+      <div class="branch"><h3>Balikpapan</h3><address>Jl. Mess Projakal RT 29 No. 56<br>Balikpapan, Kalimantan Timur</address></div>
+      <div class="branch"><h3>Makassar</h3><address>Jl. Pongtiku No. 107<br>Makassar, Sulawesi Selatan</address><p>Telp: (0411) 452-152</p></div>
+      <div class="branch"><h3>Samarinda</h3><address>Jl. Pulau Kalimantan No. 11<br>Samarinda, Kalimantan Timur</address><p>Telp: (0541) 742-354</p></div>
+      <div class="branch"><h3>Banjarmasin</h3><address>Jl. Lingkar Dalam Basirih / Merak Raya No. 4/25<br>Banjarmasin, Kalimantan Selatan</address></div>
     </div>
     <div class="narrow prose" style="margin-top:40px"><h2>Lokasi Kantor Pusat (Bandung)</h2><p>Kunjungi langsung kantor pusat kami di Jl. Jamika No. 136, Bandung. Lihat juga <a href="${GMAPS_PLACE}" target="_blank" rel="noopener">profil &amp; ulasan kami di Google Maps</a>.</p></div>
     <div class="map-embed"><iframe src="${GMAPS_EMBED}" title="Lokasi PT Buana Raya Express di Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
@@ -1302,7 +1321,7 @@ console.log("✓ robots.txt");
 
 writeFileSync("_redirects", `# Cloudflare Pages redirects — Buana Raya Express
 # Kanonikalisasi www -> non-www (301 permanen)
-https://www.buanaraya.com/*  https://tendra8.github.io/:splat  301!
+https://www.buanaraya.com/*  https://buanaraya.com/:splat  301!
 
 # Sisa URL WordPress lama yang mungkin terindeks
 /feed/                       /                              301

@@ -22,7 +22,7 @@ python3 -m http.server 8099   # lalu buka http://localhost:8099
 
 ## Migrasi SEO (WAJIB sebelum/sesudah go-live)
 - **URL lama dipertahankan** persis (slug sama) → ranking aman. Sudah diverifikasi 22 URL lama balas 200.
-- Setelah live: di **Google Search Console** → tambahkan domain, submit `https://tendra8.github.io/buanaweb/sitemap.xml`, gunakan URL Inspection pada beberapa URL lama untuk memastikan tetap terindeks. Pantau Coverage & Core Web Vitals.
+- Setelah live: di **Google Search Console** → tambahkan domain, submit `https://tendra8.github.io/sitemap.xml`, gunakan URL Inspection pada beberapa URL lama untuk memastikan tetap terindeks. Pantau Coverage & Core Web Vitals.
 - Cek redirect: `curl -I https://www.buanaraya.com/` harus 301 ke non-www.
 
 ## Aset yang MASIH PERLU kamu sediakan

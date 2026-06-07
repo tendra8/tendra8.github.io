@@ -1,6 +1,6 @@
 # Cloudflare Pages redirects — Buana Raya Express
 # Kanonikalisasi www -> non-www (301 permanen)
-https://www.buanaraya.com/*  https://tendra8.github.io/buanaweb/:splat  301!
+https://www.buanaraya.com/*  https://tendra8.github.io/:splat  301!
 
 # Sisa URL WordPress lama yang mungkin terindeks
 /feed/                       /                              301

@@ -1,4 +1,4 @@
-/* Buana Raya Express — minimal JS (no dependencies) */
+/* Perdana Prima Express — minimal JS (no dependencies) */
 (function () {
   "use strict";
 

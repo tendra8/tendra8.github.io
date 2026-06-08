@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | Perdana Prima Express - Sophisticated Logistics</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-tertiary-container": "#d5cec6",
+                "primary": "#334537",
+                "on-error-container": "#93000a",
+                "outline-variant": "#c3c8c1",
+                "on-secondary-fixed": "#141e12",
+                "on-background": "#1a1c1b",
+                "secondary-container": "#d4e1cd",
+                "secondary-fixed-dim": "#bdcab7",
+                "background": "#faf9f7",
+                "primary-fixed-dim": "#b7ccb9",
+                "surface-container": "#efeeec",
+                "on-secondary": "#ffffff",
+                "on-surface-variant": "#434843",
+                "on-primary-fixed-variant": "#394b3d",
+                "error": "#ba1a1a",
+                "tertiary-container": "#5c5852",
+                "error-container": "#ffdad6",
+                "surface-container-low": "#f4f3f1",
+                "primary-container": "#4a5d4e",
+                "surface-container-high": "#e9e8e6",
+                "inverse-surface": "#2f3130",
+                "surface-tint": "#506354",
+                "on-tertiary-fixed": "#1e1b16",
+                "on-primary-container": "#c0d5c2",
+                "on-primary": "#ffffff",
+                "surface-bright": "#faf9f7",
+                "surface-container-highest": "#e3e2e0",
+                "surface-container-lowest": "#ffffff",
+                "on-surface": "#1a1c1b",
+                "on-tertiary-fixed-variant": "#4a4640",
+                "primary-fixed": "#d3e8d5",
+                "on-secondary-fixed-variant": "#3e4a3b",
+                "on-tertiary": "#ffffff",
+                "tertiary-fixed-dim": "#ccc5be",
+                "on-primary-fixed": "#0e1f13",
+                "tertiary": "#45413b",
+                "surface-dim": "#dadad8",
+                "on-secondary-container": "#586454",
+                "on-error": "#ffffff",
+                "inverse-primary": "#b7ccb9",
+                "tertiary-fixed": "#e9e1d9",
+                "surface": "#faf9f7",
+                "inverse-on-surface": "#f1f1ef",
+                "surface-variant": "#e3e2e0",
+                "secondary": "#566252",
+                "outline": "#737872",
+                "secondary-fixed": "#d9e6d2"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "fontFamily": {
+                "headline": ["Montserrat", "sans-serif"],
+                "display": ["Montserrat", "sans-serif"],
+                "body": ["Inter", "sans-serif"],
+                "label": ["Inter", "sans-serif"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .prose h2 { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.5rem; color: #334537; margin-top: 2.5rem; margin-bottom: 1rem; }
+        .prose h3 { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.25rem; color: #334537; margin-top: 2rem; margin-bottom: 0.75rem; }
+        .prose p { font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.75; color: #434843; margin-bottom: 1.5rem; }
+        .prose ul { list-style-type: none; padding-left: 0; margin-bottom: 1.5rem; }
+        .prose li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: #434843; }
+        .prose li::before { content: "•"; position: absolute; left: 0; color: #334537; font-weight: bold; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="w-full top-0 sticky z-50 bg-surface border-b border-outline-variant">
+<div class="max-w-[1200px] mx-auto px-12 flex items-center justify-between h-20">
+<div class="font-headline text-2xl font-bold text-primary">Perdana Prima Express</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm font-medium" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm font-medium" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm font-medium" href="#">Contact</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Tracking</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-on-surface-variant">search</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded text-sm font-medium scale-95 active:scale-90 transition-transform">Ship Now</button>
+</div>
+</div>
+</header>
+<main class="min-h-screen">
+<!-- Breadcrumb -->
+<div class="max-w-[1200px] mx-auto px-12 pt-8">
+<nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label">
+<a class="hover:text-primary" href="#">Beranda</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<a class="hover:text-primary" href="#">Blog</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-primary truncate max-w-xs md:max-w-none">5 Cara Mengoptimalkan Biaya Pengiriman Last-Mile Anda</span>
+</nav>
+</div>
+<!-- Article Header -->
+<article class="max-w-[1200px] mx-auto px-12 pt-12 pb-24">
+<header class="max-w-3xl">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 text-xs font-semibold tracking-wider rounded-sm uppercase mb-6 inline-block">Tips &amp; Trik</span>
+<h1 class="font-headline text-4xl md:text-5xl font-bold text-primary leading-tight mb-8">5 Cara Mengoptimalkan Biaya Pengiriman Last-Mile Anda</h1>
+<div class="flex items-center gap-4 mb-12">
+<img class="w-12 h-12 rounded-full object-cover grayscale brightness-110 border border-outline-variant" data-alt="A professional headshot of a logistics expert with a confident and serene expression, set against a blurred background of a modern, minimal office. The lighting is soft and high-key, aligning with a light-mode aesthetic. The color palette features muted earth tones and deep charcoal, reflecting the Perdana Prima Express brand identity. The style is sophisticated and clean, emphasizing trust and professionalism in the logistics industry." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqAucqVLs8q237ameJ8ZQ5nb8VKMPst4XY2uI0fZOe_LLoFwpvH9ugwRNE-10vcfARQV32YuiJ77E9qazvvgUbzRLoPdNSRiQkiUyGfC0fo69O2qXIluBepHetWZ9MgVHxzVUEhi_ZSuvVJETKmRLIkTiSjmuydB8C340HGBXBymgaBl9z8pcS9UOgg7sUsxjRApebSAhg5WrtWfzSciRnLjKTpXMCC6b0gqPgrKeqGap_xIPyur8MHicbHz0AmGMRqnYWlaoKGLk"/>
+<div>
+<div class="font-medium text-on-surface">Aris Setiawan</div>
+<div class="text-sm text-on-surface-variant flex items-center gap-3">
+<span>15 Oktober 2024</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span>8 Menit Membaca</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Image -->
+<div class="mb-16">
+<img class="w-full h-[500px] object-cover rounded-xl shadow-sm" data-alt="An artistic high-angle shot of an organized logistics hub featuring sleek white delivery vans and stacked wooden pallets in a minimalist warehouse. The environment is bathed in natural, soft morning light, creating a calm and efficient atmosphere. The color scheme is a harmonious blend of Sage Forest greens, Warm Sand neutrals, and Off-White surfaces, avoiding any harsh industrial clutter to project a premium, sophisticated logistics service." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSPBN_DEyWKxKq9frRQSrW4xNWpFkPKDRoohDdbxSHXcidU92MjaQOLDyVd-39AUNvMh7r3LWiZGYGbbaqnlf31-x7muVIPEvQvEkJ8LIPSJJ3vcgNXzbI2uCMnJlstHb-_JhgknhML6zaHVMfu8XoiMXjqgf0qWdQpQtTVDup7P9Ro9WxIMrIeFJ2ghZfo8l8aIGZLka99NErVn0NoAg-nNQKmQPbv7II0RkNqwIH4huKmAuP1a9jwrJoEmfDw5RE7tFN4rQYsD8"/>
+</div>
+<!-- Content Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-8">
+<div class="prose max-w-none">
+<p class="text-lg leading-relaxed text-on-surface-variant font-body">
+                            Logistik di wilayah kepulauan Indonesia menyajikan tantangan yang unik. Terutama dalam fase <span class="italic">last-mile delivery</span>, di mana efisiensi seringkali terhambat oleh infrastruktur yang belum merata. Perdana Prima Express memahami bahwa optimasi biaya bukan hanya soal memotong anggaran, tetapi tentang presisi digital dan manajemen aset yang cerdas.
+                        </p>
+<h2>1. Implementasi Analitik Rute Dinamis</h2>
+<p>
+                            Menggunakan data real-time untuk menyesuaikan rute pengiriman berdasarkan kemacetan lalu lintas, kondisi cuaca, dan prioritas paket. Infrastruktur digital kami memungkinkan pengemudi untuk menerima pembaruan rute secara instan, meminimalkan konsumsi bahan bakar dan waktu tunggu.
+                        </p>
+<div class="my-12 py-8 px-10 bg-surface-container border-l-4 border-primary italic">
+<p class="text-xl font-headline text-primary mb-0 leading-relaxed">
+                                "Efisiensi sejati dalam logistik nusantara bukan dicapai melalui kecepatan semata, melainkan melalui harmoni antara teknologi prediktif dan pemahaman mendalam atas geografi lokal."
+                            </p>
+</div>
+<h2>2. Konsolidasi Muatan Berbasis Wilayah</h2>
+<p>
+                            Mengelompokkan paket berdasarkan zona pengiriman yang sangat spesifik. Hal ini mengurangi jarak tempuh antar titik drop-off.
+                        </p>
+<ul>
+<li>Pemanfaatan Micro-Hub di area padat penduduk.</li>
+<li>Optimalisasi kapasitas kendaraan hingga 95% sebelum keberangkatan.</li>
+<li>Integrasi jadwal pengiriman dengan frekuensi pesanan pelanggan tetap.</li>
+</ul>
+<h3>Strategi Infrastruktur Digital</h3>
+<p>
+                            Migrasi dari sistem konvensional ke platform berbasis <span class="font-medium">Cloud Logistics</span> memungkinkan sinkronisasi data antar pulau tanpa hambatan. Perdana Prima Express menerapkan sistem ini untuk memastikan transparansi biaya di setiap titik rantai pasok.
+                        </p>
+</div>
+<!-- Social Sharing -->
+<div class="mt-16 pt-8 border-t border-outline-variant flex items-center justify-between">
+<span class="text-sm font-semibold text-on-surface-variant uppercase tracking-widest">Bagikan Artikel</span>
+<div class="flex gap-4">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container transition-all">
+<span class="material-symbols-outlined text-sm">share</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container transition-all">
+<span class="material-symbols-outlined text-sm">link</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Sidebar/Related (Sticky on Desktop) -->
+<aside class="lg:col-span-4 space-y-8">
+<div class="sticky top-28">
+<div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant">
+<h4 class="font-headline font-bold text-primary mb-4">Butuh Solusi Logistik?</h4>
+<p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Konsultasikan kebutuhan pengiriman bisnis Anda dengan tim ahli kami untuk mendapatkan tarif yang lebih kompetitif.</p>
+<button class="w-full bg-primary text-on-primary py-3 rounded font-medium text-sm">Hubungi Kami</button>
+</div>
+</div>
+</aside>
+</div>
+</article>
+<!-- Newsletter Section -->
+<section class="bg-primary py-24 px-12">
+<div class="max-w-[1200px] mx-auto text-center">
+<h2 class="font-headline text-3xl font-bold text-on-primary mb-4">Wawasan Logistik ke Inbox Anda</h2>
+<p class="text-on-primary-container max-w-xl mx-auto mb-10">Dapatkan update mingguan mengenai tren industri, tips efisiensi, dan berita terbaru dari Perdana Prima Express.</p>
+<form class="max-w-md mx-auto flex flex-col md:flex-row gap-4">
+<input class="flex-1 bg-on-primary/10 border-on-primary/20 text-on-primary placeholder:text-on-primary-container/60 rounded px-6 py-3 focus:ring-1 focus:ring-on-primary/50 outline-none transition-all" placeholder="Alamat email Anda" type="email"/>
+<button class="bg-on-primary text-primary px-8 py-3 rounded font-bold hover:bg-primary-fixed transition-colors">Langganan</button>
+</form>
+</div>
+</section>
+<!-- Related Articles -->
+<section class="max-w-[1200px] mx-auto px-12 py-24">
+<h2 class="font-headline text-2xl font-bold text-primary mb-12">Artikel Terkait</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-lg mb-4">
+<img class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A close-up shot of a modern, matte-finish cargo shipping container with a minimalist digital lock mechanism. The lighting is focused and clean, highlighting the sophisticated texture of the metal. The scene is presented in a minimalist gallery style with a background of soft greys and sage greens, suggesting a high-tech and secure logistics approach. The overall mood is one of dependable technology and professional care." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx81W0_5bMrkvLOwWLhw5if9t-LLYBzWQ5FsehXEX76mQ9EldyFWKtH0-xRGoatytKIjdczsv0lbny0zQYbCRTuusiJdTpB9C5kHTW41whg0Ohyd_0l9FIADjgFYlEHiMQyOk9DfCH5jImmzRFh1aCaDuhig2gaG3cwkAB69qRZCzuc2hhdkFqTufwpO70HO4eLvgf2P6vudJ1miU1PwctG5HX4eMMj5IU_-XRBRR42van249qQEP8C3iha25gJGpElhKjkuamWMU"/>
+</div>
+<span class="text-xs font-semibold text-primary uppercase tracking-widest">Infrastruktur</span>
+<h3 class="font-headline text-lg font-bold text-on-surface mt-2 group-hover:text-primary transition-colors">Digitalisasi Rantai Pasok di Era Industri 4.0</h3>
+</div>
+<!-- Card 2 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-lg mb-4">
+<img class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A minimal and serene aerial view of a cargo ship navigating calm, teal waters under a soft, overcast sky. The composition is clean with plenty of white space provided by the ocean, emphasizing the brand's 'Sophisticated Logistics' and minimalist aesthetic. The color palette is composed of soft greens and neutral blues, projecting a sense of peace and systematic control over maritime logistics in an archipelago." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbMU6rsti7x_z4MGS_Vidp-pl_9rmNnIwLg9dUqgwDBc-HH14yZTZ6ZgPVHanFwxAFdz31lYLnjWFtncz-kAcjel-pFxp4EVMXRfxA6T3AxGDn-UqzfXuScQXCVNSx0AwiEoLDsrH9TYa8lDLcNfrZtsTckqZdhvfIMw6VG6dRP7idmaMCjoHN0Rh3RvDUIDIqFFYKpFBzT7Y7DzaIzJyBrKh0Ki3ATluku6s0FkjAMfDJfKlq-fbVfEU7w2-tAoHH7HOkR_LIeHA"/>
+</div>
+<span class="text-xs font-semibold text-primary uppercase tracking-widest">Layanan Global</span>
+<h3 class="font-headline text-lg font-bold text-on-surface mt-2 group-hover:text-primary transition-colors">Navigasi Logistik Maritim: Menjangkau Pelosok</h3>
+</div>
+<!-- Card 3 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-lg mb-4">
+<img class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern office workstation with a minimalist design, featuring a laptop displaying complex logistic data charts. The desk is clean, adorned only with a simple succulent and a ceramic coffee mug. The lighting is bright and airy, reflecting a professional and calm workspace. The background is a soft off-white wall, aligning with the Perdana Prima Express brand colors. The image conveys data-driven intelligence and clerical precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvDsjJ88Cz5m1mYWsWhhYVTUEHFdNDEWXH_jvUGG_aNGuDFJwcgHCt3bGwNPSYmwX__kO9_etvBEQNmhOh4YKclw5SfKA-uMRPg9lZMUwkeuACYe7PU8S60kOMFOnHOMorqjGvSKYRaAg47ZN_C6kDDzdP0-ZvfsIPAU9dFvf0hnoeefDQWMxNME09w6pIT7bt3EMPTFVbEA_FaNcoQoqoPsU2kOxuxJ7YNMkoVSRHc_I1iqL0cCCIiS1ATb-CPsUT5sPRo13fexA"/>
+</div>
+<span class="text-xs font-semibold text-primary uppercase tracking-widest">Manajemen</span>
+<h3 class="font-headline text-lg font-bold text-on-surface mt-2 group-hover:text-primary transition-colors">Membangun Transparansi dengan Real-time Tracking</h3>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest border-t border-outline-variant">
+<div class="max-w-[1200px] mx-auto px-12 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline text-xl font-bold text-primary mb-6">Perdana Prima Express</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                    Solusi logistik yang mengutamakan ketenangan dan efisiensi untuk setiap kiriman Anda ke seluruh pelosok negeri.
+                </p>
+</div>
+<div>
+<h5 class="font-bold text-primary mb-6">Layanan</h5>
+<ul class="space-y-4 text-sm text-on-surface-variant">
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Cargo Udara</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Logistik Maritim</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Gudang Pintar</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-primary mb-6">Dukungan</h5>
+<ul class="space-y-4 text-sm text-on-surface-variant">
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Pusat Bantuan</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Track Shipment</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Cargo Insurance</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-primary mb-6">Perusahaan</h5>
+<ul class="space-y-4 text-sm text-on-surface-variant">
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary underline decoration-transparent hover:decoration-primary transition-all" href="#">Global Locations</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-12 py-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-on-surface-variant">© 2024 Perdana Prima Express. Sophisticated Logistics. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Instagram</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">LinkedIn</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Twitter</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple interactive effect for hero image
+        document.addEventListener('mousemove', (e) => {
+            const hero = document.querySelector('article img');
+            if (hero) {
+                const moveX = (e.clientX - window.innerWidth / 2) * 0.005;
+                const moveY = (e.clientY - window.innerHeight / 2) * 0.005;
+                hero.style.transform = `translate(${moveX}px, ${moveY}px)`;
+            }
+        });
+    </script>
+</body></html>

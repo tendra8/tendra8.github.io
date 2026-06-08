@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cek Tarif - Perdana Prima Express</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed-dim": "#ccc5be",
+                    "tertiary-fixed": "#e9e1d9",
+                    "on-primary": "#ffffff",
+                    "on-primary-container": "#c0d5c2",
+                    "surface-container-highest": "#e3e2e0",
+                    "on-error-container": "#93000a",
+                    "primary": "#334537",
+                    "on-surface-variant": "#434843",
+                    "inverse-on-surface": "#f1f1ef",
+                    "error": "#ba1a1a",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#d5cec6",
+                    "surface-container-low": "#f4f3f1",
+                    "on-error": "#ffffff",
+                    "inverse-primary": "#b7ccb9",
+                    "surface-bright": "#faf9f7",
+                    "primary-fixed-dim": "#b7ccb9",
+                    "on-background": "#1a1c1b",
+                    "on-primary-fixed-variant": "#394b3d",
+                    "error-container": "#ffdad6",
+                    "surface-container-high": "#e9e8e6",
+                    "tertiary-container": "#5c5852",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#d9e6d2",
+                    "secondary-fixed-dim": "#bdcab7",
+                    "primary-container": "#4a5d4e",
+                    "on-secondary-fixed": "#141e12",
+                    "secondary-container": "#d4e1cd",
+                    "secondary": "#566252",
+                    "tertiary": "#45413b",
+                    "background": "#faf9f7",
+                    "surface-dim": "#dadad8",
+                    "surface-container": "#efeeec",
+                    "on-tertiary-fixed-variant": "#4a4640",
+                    "surface-variant": "#e3e2e0",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#0e1f13",
+                    "on-tertiary-fixed": "#1e1b16",
+                    "surface-tint": "#506354",
+                    "surface": "#faf9f7",
+                    "on-secondary-fixed-variant": "#3e4a3b",
+                    "on-secondary-container": "#586454",
+                    "outline": "#737872",
+                    "primary-fixed": "#d3e8d5",
+                    "outline-variant": "#c3c8c1",
+                    "inverse-surface": "#2f3130",
+                    "on-surface": "#1a1c1b"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Montserrat"],
+                    "display": ["Montserrat"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #faf9f7;
+            color: #1a1c1b;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="w-full top-0 sticky z-50 bg-surface border-b border-outline-variant h-20">
+<div class="max-w-[1200px] mx-auto px-6 md:px-12 flex items-center justify-between h-full">
+<div class="font-headline text-xl font-bold text-primary">Perdana Prima Express</div>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm" href="#">Layanan</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm" href="#">Tentang Kami</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-sm" href="#">Kontak</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Lacak Kiriman</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded font-semibold scale-95 active:scale-90 transition-transform">
+                Kirim Sekarang
+            </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative py-16 md:py-24 overflow-hidden bg-surface-container-low">
+<div class="max-w-[1200px] mx-auto px-6 md:px-12 relative z-10">
+<div class="max-w-2xl">
+<span class="text-primary font-semibold tracking-[0.1em] uppercase text-xs mb-4 block">Jejaring Logistik Kepulauan</span>
+<h1 class="text-4xl md:text-5xl font-bold text-primary leading-tight mb-6">Cek Tarif Pengiriman Domestik</h1>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8">
+                    Dapatkan estimasi biaya instan untuk pengiriman ke seluruh pelosok Nusantara (Jawa, Sumatra, Kalimantan, Sulawesi, hingga Papua). Dilengkapi fitur <strong>E-Tracking</strong> dan <strong>Automated Billing</strong> untuk transparansi penuh.
+                </p>
+</div>
+</div>
+<!-- Decorative Element -->
+<div class="absolute right-0 top-0 h-full w-1/3 opacity-10 pointer-events-none hidden lg:block">
+<div class="w-full h-full bg-primary-container rounded-l-full transform translate-x-1/2"></div>
+</div>
+</section>
+<!-- Main Calculator Section -->
+<section class="max-w-[1200px] mx-auto px-6 md:px-12 -mt-12 mb-20 relative z-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Calculator Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 rounded-xl shadow-[0px_4px_20px_rgba(74,93,78,0.05)] border border-outline-variant">
+<h2 class="text-xl font-bold text-primary mb-8 flex items-center gap-2">
+<span class="material-symbols-outlined">calculate</span> Rincian Paket &amp; Rute
+                </h2>
+<form class="space-y-6" id="tariffForm">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Kota Asal</label>
+<select class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4">
+<option>Jakarta (CGK)</option>
+<option>Surabaya (SUB)</option>
+<option>Medan (KNO)</option>
+<option>Makassar (UPG)</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Kota Tujuan</label>
+<select class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4">
+<optgroup label="Jawa">
+<option>Bandung (BDO)</option>
+<option>Semarang (SRG)</option>
+</optgroup>
+<optgroup label="Sumatra">
+<option>Palembang (PLM)</option>
+<option>Pekanbaru (PKU)</option>
+</optgroup>
+<optgroup label="Kalimantan">
+<option>Balikpapan (BPN)</option>
+<option>Banjarmasin (BDJ)</option>
+</optgroup>
+<optgroup label="Sulawesi &amp; Lainnya">
+<option>Manado (MDC)</option>
+<option>Denpasar (DPS)</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="space-y-4">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Metode Perhitungan</label>
+<div class="flex gap-4">
+<button class="flex-1 py-3 px-4 border border-primary bg-primary text-on-primary rounded text-sm font-medium transition-all" id="btnWeight" onclick="switchMode('weight')" type="button">Berat Aktual (Kg)</button>
+<button class="flex-1 py-3 px-4 border border-outline text-on-surface-variant rounded text-sm font-medium hover:border-primary transition-all" id="btnVolume" onclick="switchMode('volume')" type="button">Dimensi (Volumetrik)</button>
+</div>
+</div>
+<div class="space-y-2" id="weightInput">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Berat Total (Kg)</label>
+<input class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4" placeholder="Contoh: 10" type="number"/>
+</div>
+<div class="hidden grid grid-cols-3 gap-4" id="volumeInputs">
+<div class="space-y-2">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Panjang (cm)</label>
+<input class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4" placeholder="P" type="number"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Lebar (cm)</label>
+<input class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4" placeholder="L" type="number"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Tinggi (cm)</label>
+<input class="w-full h-14 bg-surface-container-low border-0 border-b border-outline hover:border-primary focus:ring-0 focus:border-primary transition-all px-4" placeholder="T" type="number"/>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary h-14 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-all" onclick="calculateTariff()" type="button">
+                        Cek Sekarang <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</form>
+</div>
+<!-- Results Column -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div class="hidden bg-secondary-container p-8 rounded-xl border border-outline-variant flex-grow relative overflow-hidden" id="resultCard">
+<div class="relative z-10">
+<h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-on-secondary-container mb-6">Hasil Estimasi BRE</h3>
+<div class="space-y-8">
+<div>
+<p class="text-xs text-on-secondary-container opacity-70 mb-1">Estimasi Biaya Pengiriman</p>
+<p class="text-4xl font-bold text-primary" id="finalPrice">Rp 450.000</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest/50 p-4 rounded-lg">
+<p class="text-[10px] uppercase font-bold text-primary mb-1">E-Tracking</p>
+<p class="text-xs font-semibold">Tersedia Real-time</p>
+</div>
+<div class="bg-surface-container-lowest/50 p-4 rounded-lg">
+<p class="text-[10px] uppercase font-bold text-primary mb-1">Billing</p>
+<p class="text-xs font-semibold">Otomatis Terbit</p>
+</div>
+</div>
+<div class="space-y-4 pt-4 border-t border-primary/10">
+<button class="w-full bg-primary text-on-primary py-4 rounded font-bold hover:shadow-lg transition-all">Pesan Pengiriman Sekarang</button>
+<p class="text-center text-[11px] text-on-surface-variant italic leading-relaxed">
+                                    Harga final mencakup asuransi dasar. Penagihan akan diproses melalui sistem Automated Billing BRE.
+                                </p>
+</div>
+</div>
+</div>
+<div class="absolute -right-12 -bottom-12 w-48 h-48 bg-primary/5 rounded-full blur-3xl"></div>
+</div>
+<!-- Digital Features Info -->
+<div class="bg-surface-container-high p-8 rounded-xl border border-outline-variant">
+<h3 class="font-bold text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">memory</span> Infrastruktur Digital BRE
+                    </h3>
+<div class="space-y-4 text-sm text-on-surface-variant leading-relaxed">
+<p>
+                            Kami mengintegrasikan <strong>E-Tracking</strong> dan <strong>Warehouse Management Systems (WMS)</strong> untuk memastikan visibilitas paket Anda di seluruh jalur transit darat, laut, dan udara.
+                        </p>
+<a class="inline-flex items-center gap-2 text-primary font-bold hover:underline transition-all" href="#">
+<span class="material-symbols-outlined text-xl">contact_support</span>
+                            Butuh Nego Tarif Bulk ( &gt;500kg )?
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Volume Calculation Explanation -->
+<section class="max-w-[1200px] mx-auto px-6 md:px-12 py-20 border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div>
+<img alt="Professional measurement" class="rounded-xl shadow-sm grayscale-[20%] hover:grayscale-0 transition-all duration-700 w-full object-cover aspect-video" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAHhqnlmYeKfDMhI_nvz4PDTZ0gABOY3WH7PktAgPh2ZptmR00wvPPkxuNiVhXslNqhLeSkJK7o0lJyNU72ZHaq0tbxAvSToLuzzVT3UI3l6Dvn-qKB_qp_2STPl0R_AeFEGOux-2m9CioYAAA334_JDyXMJmXcldk_kzU3E1r0S-GmvNdpNKD0uDWK9QkmimbGNo1nnqSYsv9xegSDyFZQuz9pjIkSaL3oxa4S5-kLakEElfhpLZkdgojjTtom7MutdEAUo9Em2E"/>
+</div>
+<div>
+<h2 class="text-3xl font-bold text-primary mb-6">Memahami Perhitungan Volume</h2>
+<p class="text-on-surface-variant mb-8 leading-relaxed">
+                    Sebagai standar industri multi-modal di Indonesia, Perdana Prima Express (Logic by BRE) menggunakan <strong>divisor 4.000</strong> untuk perhitungan berat volumetrik paket kargo.
+                </p>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded text-primary">
+<span class="material-symbols-outlined">straighten</span>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-1">Rumus Dimensi Industri</h4>
+<p class="text-sm text-on-surface-variant">(Panjang x Lebar x Tinggi) / 4.000 = Kg Volumetrik</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded text-primary">
+<span class="material-symbols-outlined">info</span>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-1">Ketentuan Penagihan</h4>
+<p class="text-sm text-on-surface-variant">Berat yang ditagih (chargeable weight) adalah angka tertinggi antara berat aktual dan berat volumetrik.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest border-t border-outline-variant">
+<div class="max-w-[1200px] mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="font-headline text-lg font-bold text-primary">Perdana Prima Express</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                Solusi multi-modal integrator untuk geografi kepulauan Indonesia. Menghubungkan bisnis Anda dengan efisiensi digital.
+            </p>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-6 text-sm uppercase tracking-wider">Tautan Cepat</h4>
+<ul class="space-y-3 text-sm">
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">E-Tracking</a></li>
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">Kargo Laut &amp; Darat</a></li>
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">Konsolidasi LTL/LCL</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-6 text-sm uppercase tracking-wider">Legal</h4>
+<ul class="space-y-3 text-sm">
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">Kebijakan Privasi</a></li>
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">Syarat &amp; Ketentuan</a></li>
+<li><a class="text-on-surface-variant hover:text-primary hover:underline transition-all" href="#">Asuransi Transit</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-6 text-sm uppercase tracking-wider">Hubungi Kami</h4>
+<p class="text-sm text-on-surface-variant mb-4">Jl. Logistics Boulevard No. 88, Jakarta Selatan</p>
+<p class="text-sm font-bold text-primary">info@perdanaprima.id</p>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-6 md:px-12 py-8 border-t border-outline-variant text-center">
+<p class="text-xs text-on-surface-variant">© 2024 Perdana Prima Express. Archipelago Logistics Excellence. Seluruh hak cipta dilindungi.</p>
+</div>
+</footer>
+<script>
+    function switchMode(mode) {
+        const btnWeight = document.getElementById('btnWeight');
+        const btnVolume = document.getElementById('btnVolume');
+        const weightInput = document.getElementById('weightInput');
+        const volumeInputs = document.getElementById('volumeInputs');
+
+        if (mode === 'weight') {
+            btnWeight.className = 'flex-1 py-3 px-4 border border-primary bg-primary text-on-primary rounded text-sm font-medium transition-all';
+            btnVolume.className = 'flex-1 py-3 px-4 border border-outline text-on-surface-variant rounded text-sm font-medium hover:border-primary transition-all';
+            weightInput.classList.remove('hidden');
+            volumeInputs.classList.add('hidden');
+        } else {
+            btnVolume.className = 'flex-1 py-3 px-4 border border-primary bg-primary text-on-primary rounded text-sm font-medium transition-all';
+            btnWeight.className = 'flex-1 py-3 px-4 border border-outline text-on-surface-variant rounded text-sm font-medium hover:border-primary transition-all';
+            weightInput.classList.add('hidden');
+            volumeInputs.classList.remove('hidden');
+        }
+    }
+
+    function calculateTariff() {
+        const resultCard = document.getElementById('resultCard');
+        const finalPrice = document.getElementById('finalPrice');
+        
+        resultCard.classList.remove('hidden');
+        resultCard.classList.add('animate-pulse');
+        
+        setTimeout(() => {
+            resultCard.classList.remove('animate-pulse');
+            const prices = ["Rp 325.000", "Rp 450.000", "Rp 1.120.000", "Rp 780.000", "Rp 2.450.000"];
+            finalPrice.innerText = prices[Math.floor(Math.random() * prices.length)];
+            resultCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 800);
+    }
+</script>
+</body></html>

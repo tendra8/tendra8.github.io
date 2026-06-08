@@ -1,0 +1,140 @@
+---
+layout: layouts/base.njk
+title: Tarif Pengiriman
+description: "Cek tarif pengiriman kargo Perdana Prima Express ke seluruh Indonesia. Ongkir dari Bandung, Jakarta, Surabaya ke Kalimantan, Sulawesi, Papua, Bali dan 200+ kota lainnya."
+---
+
+<!-- Hero -->
+<section class="relative py-16 md:py-24 overflow-hidden bg-surface-container-low px-margin-mobile md:px-margin-desktop">
+  <div class="max-w-container-max mx-auto relative z-10">
+    <div class="max-w-2xl">
+      <span class="font-label text-label-caps text-secondary mb-4 block tracking-[0.1em] uppercase">Jaringan Logistik Kepulauan</span>
+      <h1 class="font-display text-display-lg-mobile md:text-display-lg text-primary leading-tight mb-6">Cek Tarif Pengiriman</h1>
+      <p class="font-body text-body-lg text-on-surface-variant mb-8">
+        Estimasi ongkir ke seluruh pelosok Nusantara — Jawa, Sumatra, Kalimantan, Sulawesi, hingga Papua. Hubungi kami via WhatsApp untuk tarif pasti dan negosiasi muatan besar.
+      </p>
+      <a href="https://wa.me/{{ site.wa.bandung.number }}?text={{ site.wa.bandung.text }}"
+         class="bg-primary text-on-primary px-8 py-4 font-bold text-body-md inline-flex items-center gap-2 active:scale-95 transition-transform">
+        <span class="material-symbols-outlined">chat</span>
+        Tanya Tarif via WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="absolute right-0 top-0 h-full w-1/3 opacity-10 pointer-events-none hidden lg:block">
+    <div class="w-full h-full bg-primary-container rounded-l-full transform translate-x-1/2"></div>
+  </div>
+</section>
+
+<!-- Info Tarif -->
+<section class="py-24 bg-surface px-margin-mobile md:px-margin-desktop">
+  <div class="max-w-container-max mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+
+      <!-- Cara Hitung -->
+      <div>
+        <h2 class="font-headline text-headline-md text-primary mb-8">Cara Perhitungan Tarif</h2>
+        <div class="space-y-6">
+          <div class="flex items-start gap-4">
+            <div class="bg-primary/10 p-3 text-primary shrink-0">
+              <span class="material-symbols-outlined">straighten</span>
+            </div>
+            <div>
+              <h4 class="font-headline font-bold text-primary mb-1">Berat Aktual vs. Berat Volume</h4>
+              <p class="font-body text-body-sm text-on-surface-variant">Tarif dihitung berdasarkan berat yang lebih besar antara berat aktual (kg) dan berat volume.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="bg-primary/10 p-3 text-primary shrink-0">
+              <span class="material-symbols-outlined">calculate</span>
+            </div>
+            <div>
+              <h4 class="font-headline font-bold text-primary mb-1">Rumus Berat Volume</h4>
+              <p class="font-body text-body-sm text-on-surface-variant">(Panjang × Lebar × Tinggi dalam cm) ÷ 4.000 = Berat Volume (kg)</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="bg-primary/10 p-3 text-primary shrink-0">
+              <span class="material-symbols-outlined">route</span>
+            </div>
+            <div>
+              <h4 class="font-headline font-bold text-primary mb-1">Faktor Tujuan</h4>
+              <p class="font-body text-body-sm text-on-surface-variant">Tarif bervariasi tergantung kota tujuan, pulau, dan moda pengiriman yang dipilih (udara/laut/darat).</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="bg-primary/10 p-3 text-primary shrink-0">
+              <span class="material-symbols-outlined">info</span>
+            </div>
+            <div>
+              <h4 class="font-headline font-bold text-primary mb-1">Negosiasi Muatan Besar</h4>
+              <p class="font-body text-body-sm text-on-surface-variant">Untuk muatan di atas 50 kg atau pengiriman rutin, hubungi kami untuk tarif khusus yang lebih kompetitif.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kontak Tarif -->
+      <div class="bg-surface-container-low p-8 border border-outline-variant">
+        <h2 class="font-headline text-headline-md text-primary mb-6">Tanya Tarif Langsung</h2>
+        <p class="font-body text-body-md text-on-surface-variant mb-8">
+          Hubungi cabang terdekat Anda untuk mendapatkan estimasi ongkir yang akurat dan penawaran terbaik.
+        </p>
+        <div class="space-y-4">
+          {% for branch in site.branches %}
+          <div class="bg-surface p-5 border border-outline-variant">
+            <p class="font-body text-body-sm font-semibold text-primary mb-1">{{ branch.city }}</p>
+            <p class="font-body text-body-sm text-on-surface-variant mb-3">{{ branch.address }}</p>
+            <a href="https://wa.me/{{ site.wa[branch.waKey].number }}?text={{ site.wa[branch.waKey].text }}"
+               class="font-label text-label-caps text-primary flex items-center gap-2 hover:gap-4 transition-all">
+              WA {{ site.wa[branch.waKey].label }} <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Tabel Tarif dari Bandung -->
+<section class="py-24 bg-surface-container-low px-margin-mobile md:px-margin-desktop">
+  <div class="max-w-container-max mx-auto">
+    <div class="mb-12">
+      <span class="font-label text-label-caps text-secondary mb-2 block">REFERENSI TARIF</span>
+      <h2 class="font-headline text-headline-md text-primary">Tarif Kirim dari Bandung</h2>
+      <p class="font-body text-body-md text-on-surface-variant mt-4">
+        Tarif di bawah adalah estimasi. Tarif final dikonfirmasi saat pemesanan.
+      </p>
+    </div>
+    <div class="overflow-x-auto">
+      <a href="/tarif-kirim-dari-bandung/"
+         class="bg-primary text-on-primary px-8 py-3 font-bold text-body-md inline-flex items-center gap-2 hover:opacity-90 transition-opacity mb-8">
+        <span class="material-symbols-outlined">table_chart</span>
+        Lihat Tabel Tarif Lengkap dari Bandung
+      </a>
+    </div>
+    <div class="overflow-x-auto">
+      <a href="/tarif-kirim-asal-jakarta/"
+         class="bg-surface-container-lowest border border-primary text-primary px-8 py-3 font-bold text-body-md inline-flex items-center gap-2 hover:bg-surface-container transition-colors">
+        <span class="material-symbols-outlined">table_chart</span>
+        Lihat Tabel Tarif dari Jakarta
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-primary text-on-primary py-24 px-margin-mobile md:px-margin-desktop">
+  <div class="max-w-container-max mx-auto text-center">
+    <h2 class="font-display text-display-lg-mobile mb-6">Butuh Tarif Lebih Murah?</h2>
+    <p class="font-body text-body-lg text-on-primary-container mb-10 max-w-2xl mx-auto">
+      Kami memberikan harga spesial untuk pengiriman rutin dan volume besar. Hubungi kami sekarang.
+    </p>
+    <a href="https://wa.me/{{ site.wa.bandung.number }}?text={{ site.wa.bandung.text }}"
+       class="bg-surface text-primary px-12 py-4 font-bold text-body-md inline-flex items-center gap-2 hover:bg-surface-container transition-all">
+      <span class="material-symbols-outlined">chat</span>
+      Negosiasi Tarif via WhatsApp
+    </a>
+  </div>
+</section>

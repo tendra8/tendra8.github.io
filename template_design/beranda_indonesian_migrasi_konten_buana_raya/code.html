@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Perdana Prima Express | Integrator Multi-modal Strategis</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed-dim": "#ccc5be",
+                    "tertiary-fixed": "#e9e1d9",
+                    "on-primary": "#ffffff",
+                    "on-primary-container": "#c0d5c2",
+                    "surface-container-highest": "#e3e2e0",
+                    "on-error-container": "#93000a",
+                    "primary": "#334537",
+                    "on-surface-variant": "#434843",
+                    "inverse-on-surface": "#f1f1ef",
+                    "error": "#ba1a1a",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#d5cec6",
+                    "surface-container-low": "#f4f3f1",
+                    "on-error": "#ffffff",
+                    "inverse-primary": "#b7ccb9",
+                    "surface-bright": "#faf9f7",
+                    "primary-fixed-dim": "#b7ccb9",
+                    "on-background": "#1a1c1b",
+                    "on-primary-fixed-variant": "#394b3d",
+                    "error-container": "#ffdad6",
+                    "surface-container-high": "#e9e8e6",
+                    "tertiary-container": "#5c5852",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#d9e6d2",
+                    "secondary-fixed-dim": "#bdcab7",
+                    "primary-container": "#4a5d4e",
+                    "on-secondary-fixed": "#141e12",
+                    "secondary-container": "#d4e1cd",
+                    "secondary": "#566252",
+                    "tertiary": "#45413b",
+                    "background": "#faf9f7",
+                    "surface-dim": "#dadad8",
+                    "surface-container": "#efeeec",
+                    "on-tertiary-fixed-variant": "#4a4640",
+                    "surface-variant": "#e3e2e0",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#0e1f13",
+                    "on-tertiary-fixed": "#1e1b16",
+                    "surface-tint": "#506354",
+                    "surface": "#faf9f7",
+                    "on-secondary-fixed-variant": "#3e4a3b",
+                    "on-secondary-container": "#586454",
+                    "outline": "#737872",
+                    "primary-fixed": "#d3e8d5",
+                    "outline-variant": "#c3c8c1",
+                    "inverse-surface": "#2f3130",
+                    "on-surface": "#1a1c1b"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "container-max": "1200px",
+                    "base": "8px",
+                    "gutter": "24px",
+                    "margin-desktop": "48px"
+            },
+            "fontFamily": {
+                    "body": ["Inter"],
+                    "label": ["Inter"],
+                    "headline": ["Montserrat"],
+                    "display": ["Montserrat"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { background-color: #faf9f7; }
+        .hero-gradient {
+            background: linear-gradient(rgba(250, 249, 247, 0.88), rgba(250, 249, 247, 0.65)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .tracking-bar-shadow {
+            box-shadow: 0px 4px 20px rgba(74, 93, 78, 0.05);
+        }
+    </style>
+</head>
+<body class="font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-50 bg-surface border-b border-outline-variant">
+<nav class="max-w-container-max mx-auto px-6 md:px-margin-desktop flex items-center justify-between h-24">
+<div class="flex items-center">
+<img alt="Perdana Prima Express Logo" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLtA67xR8Kpdxip0ZelC138DueDu7R48ai8XFjF9e7DQp0-KRtQK_J8Um5i3w02Wm4cigdS7jFRa5EmS_0m34j6FXF6fdM7NwLdc7-TUSyxOwlFqJWZNZuztuUBpfiaP6EzUUp0Su1uulTRsb1uqFro5EXVPF9eiZVfM4Gf0SzDWglTWcUBJOkVasEtmtLiMA0DS9_ICCf31N3KNHurvLyr-6jqKuWC3NPT3uD-lN_vD6FrxCflKPH8HHaA"/>
+</div>
+<!-- Desktop Nav -->
+<div class="hidden md:flex items-center gap-10">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body text-body-md transition-colors duration-200" href="#">Layanan</a>
+<a class="text-on-surface-variant hover:text-primary font-body text-body-md transition-colors duration-200" href="#">Tentang Kami</a>
+<a class="text-on-surface-variant hover:text-primary font-body text-body-md transition-colors duration-200" href="#">Rute Strategis</a>
+<a class="text-on-surface-variant hover:text-primary font-body text-body-md transition-colors duration-200" href="#">Tracking</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">search</button>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-none font-bold text-body-md scale-95 active:scale-90 transition-transform">
+                Kirim Sekarang
+            </button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="hero-gradient relative min-h-[800px] flex flex-col items-center justify-center text-center px-margin-mobile md:px-margin-desktop py-24">
+<div class="max-w-4xl mx-auto">
+<span class="font-label text-label-caps text-secondary mb-4 block tracking-[0.2em] uppercase">Integrator Rantai Pasok Multi-modal</span>
+<h1 class="font-display text-display-lg-mobile md:text-display-lg text-primary mb-8 max-w-3xl mx-auto leading-tight">
+                Adaptasi Strategis dalam Logistik Kepulauan
+            </h1>
+<p class="font-body text-body-lg text-on-surface-variant mb-12 max-w-2xl mx-auto">
+                Menyelesaikan fragmentasi geografi Indonesia melalui integrasi multi-modal yang canggih. Infrastruktur berbasis digital untuk sektor pertambangan, energi, dan konstruksi.
+            </p>
+<!-- Integrated Tracking Bar -->
+<div class="w-full max-w-2xl mx-auto bg-surface-container-lowest p-2 rounded-none border border-outline-variant tracking-bar-shadow flex flex-col md:flex-row gap-2">
+<div class="flex-grow flex items-center px-4 bg-surface-container-low border-b-2 border-primary md:border-none">
+<span class="material-symbols-outlined text-outline mr-3">inventory_2</span>
+<input class="w-full py-4 bg-transparent border-none focus:ring-0 text-body-md font-body placeholder:text-outline-variant" placeholder="Masukkan nomor E-Tracking Anda..." type="text"/>
+</div>
+<button class="bg-primary text-on-primary px-10 py-4 font-bold text-body-md transition-transform active:scale-95">
+                    Lacak Pengiriman
+                </button>
+</div>
+</div>
+</section>
+<!-- Value Propositions -->
+<section class="py-24 bg-surface px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Digital First -->
+<div class="p-10 bg-surface-container-low border-b-4 border-secondary transition-all hover:bg-surface-container">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">dynamic_feed</span>
+<h3 class="font-headline text-headline-md text-primary mb-4">Digital-First Infra</h3>
+<p class="font-body text-body-md text-on-surface-variant">
+                        Memanfaatkan E-Tracking dan WMS (Warehouse Management Systems) otomatis untuk bersaing dengan standar logistik global.
+                    </p>
+</div>
+<!-- Archipelago Agility -->
+<div class="p-10 bg-surface-container-low border-b-4 border-secondary transition-all hover:bg-surface-container">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">grid_view</span>
+<h3 class="font-headline text-headline-md text-primary mb-4">Agility Kepulauan</h3>
+<p class="font-body text-body-md text-on-surface-variant">
+                        Kekuatan penyeimbang ekonomi Indonesia, memastikan pergerakan barang yang mulus meskipun ada tantangan geografis antar pulau.
+                    </p>
+</div>
+<!-- Heavy Industry Focus -->
+<div class="p-10 bg-surface-container-low border-b-4 border-secondary transition-all hover:bg-surface-container">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">engineering</span>
+<h3 class="font-headline text-headline-md text-primary mb-4">Project Cargo</h3>
+<p class="font-body text-body-md text-on-surface-variant">
+                        Kemampuan khusus dalam menangani aset industri berat non-standar untuk sektor pertambangan dan infrastruktur.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface-container-low">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<span class="font-label text-label-caps text-secondary mb-2 block tracking-widest uppercase">Portofolio Layanan</span>
+<h2 class="font-headline text-display-lg-mobile md:text-headline-md text-primary">Solusi Logistik Multi-moda Terintegrasi</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Land Transport -->
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-all">
+<span class="material-symbols-outlined text-primary mb-4">local_shipping</span>
+<h4 class="font-headline font-bold text-primary mb-3">Transportasi Darat</h4>
+<ul class="text-body-sm text-on-surface-variant space-y-2">
+<li>• FTL (Full Truck Load)</li>
+<li>• LTL (Less than Truckload)</li>
+<li>• Retail &amp; E-commerce</li>
+</ul>
+</div>
+<!-- Sea Freight -->
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-all">
+<span class="material-symbols-outlined text-primary mb-4">directions_boat</span>
+<h4 class="font-headline font-bold text-primary mb-3">Logistik Laut</h4>
+<ul class="text-body-sm text-on-surface-variant space-y-2">
+<li>• FCL &amp; LCL</li>
+<li>• Pengiriman Breakbulk</li>
+<li>• Solusi Antar-pulau</li>
+</ul>
+</div>
+<!-- Air Freight -->
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-all">
+<span class="material-symbols-outlined text-primary mb-4">flight</span>
+<h4 class="font-headline font-bold text-primary mb-3">Logistik Udara</h4>
+<ul class="text-body-sm text-on-surface-variant space-y-2">
+<li>• Pengiriman Ekspres</li>
+<li>• Kargo Umum</li>
+<li>• Penanganan Prioritas</li>
+</ul>
+</div>
+<!-- Specialized -->
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-all">
+<span class="material-symbols-outlined text-primary mb-4">warehouse</span>
+<h4 class="font-headline font-bold text-primary mb-3">Layanan Khusus</h4>
+<ul class="text-body-sm text-on-surface-variant space-y-2">
+<li>• Project Cargo (Heavy Lift)</li>
+<li>• Pergudangan dengan WMS</li>
+<li>• Layanan Relokasi</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Route & Strategic Focus -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div class="relative aspect-[4/5] overflow-hidden">
+<img alt="Rute Logistik Strategis" class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPL4yrM0jzmh6_wID5fIc-Dv4dpvG03O34CUHsMUdwwW_kNqC4l1aZu2dEfHXGLPU02CiuIDVzIFJTHOM7j_N4nY38HG1fmexP4NHb5xIhB02WvSP-1k_Dp-sBl3-_U0fPYNzm58TRTGF4UIwZy2L_voa_TpjTYjrDBGG1eJlkSZMsHEETiVc9sz7948H8-TkmR0jqAtRrXBCwNKlRlS5md_xuaU33wCFW-Z6lIDRMosyeNGlJbaonam3Aabs7v14By89NyV2vt9E"/>
+<div class="absolute inset-0 border-[24px] border-surface-container-lowest opacity-20 pointer-events-none"></div>
+</div>
+<div class="space-y-8">
+<h2 class="font-headline text-display-lg-mobile md:font-headline-md text-primary leading-tight">
+                    Menghubungkan Nusantara: Jawa ke Pulau Luar
+                </h2>
+<p class="font-body text-body-lg text-on-surface-variant">
+                    Fokus strategis kami menyediakan jembatan kritis bagi koridor transit-berat, memastikan aliran barang yang mulus melalui lanskap infrastruktur Indonesia yang volatil.
+                </p>
+<div class="grid grid-cols-2 gap-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">route</span>
+<span class="font-body text-body-md font-bold text-primary">Jawa - Sumatera</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">route</span>
+<span class="font-body text-body-md font-bold text-primary">Jawa - Kalimantan</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">route</span>
+<span class="font-body text-body-md font-bold text-primary">Jawa - Sulawesi</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">location_on</span>
+<span class="font-body text-body-md font-bold text-primary">Jaringan Nasional</span>
+</div>
+</div>
+<div class="pt-6 border-t border-outline-variant">
+<h4 class="font-headline font-bold text-primary mb-4">Nilai-Nilai Kami (Tentang Kami)</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">verified</span>
+<span class="font-body text-body-md text-on-surface"><strong>Integritas:</strong> Transparansi penuh dalam setiap pengiriman.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">bolt</span>
+<span class="font-body text-body-md text-on-surface"><strong>Agility:</strong> Pivoting cerdas antara darat, laut, dan udara.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">person_celebrate</span>
+<span class="font-body text-body-md text-on-surface"><strong>Fokus Pelanggan:</strong> Memberdayakan bisnis lokal melalui distribusi efisien.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / CTA -->
+<section class="bg-primary text-on-primary py-24 px-margin-mobile md:px-margin-desktop overflow-hidden relative">
+<div class="absolute -right-24 -bottom-24 w-96 h-96 bg-primary-container rounded-full opacity-20 blur-3xl"></div>
+<div class="max-w-container-max mx-auto text-center relative z-10">
+<h2 class="font-display text-display-lg-mobile md:font-display-lg mb-8">Solusi Logistik Skala Industri</h2>
+<p class="font-body text-body-lg text-on-primary-container mb-12 max-w-2xl mx-auto">
+                Dari LTL retail hingga Project Cargo skala besar, kami memastikan rantai pasok Anda tetap stabil di seluruh nusantara.
+            </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+<button class="bg-surface text-primary px-12 py-4 font-bold text-body-md w-full md:w-auto hover:bg-surface-container transition-all">
+                    Dapatkan Penawaran Kustom
+                </button>
+<button class="border border-on-primary text-on-primary px-12 py-4 font-bold text-body-md w-full md:w-auto hover:bg-primary-container transition-all">
+                    Hubungi Tim Sales
+                </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest w-full py-12 px-margin-mobile md:px-margin-desktop border-t border-outline-variant">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<img alt="Perdana Prima Express Logo" class="h-12 w-auto mb-6" src="https://lh3.googleusercontent.com/aida/AP1WRLtA67xR8Kpdxip0ZelC138DueDu7R48ai8XFjF9e7DQp0-KRtQK_J8Um5i3w02Wm4cigdS7jFRa5EmS_0m34j6FXF6fdM7NwLdc7-TUSyxOwlFqJWZNZuztuUBpfiaP6EzUUp0Su1uulTRsb1uqFro5EXVPF9eiZVfM4Gf0SzDWglTWcUBJOkVasEtmtLiMA0DS9_ICCf31N3KNHurvLyr-6jqKuWC3NPT3uD-lN_vD6FrxCflKPH8HHaA"/>
+<p class="font-body text-body-sm text-on-surface-variant pr-4">
+                Memberdayakan ekonomi Indonesia melalui integrasi logistik cerdas dan infrastruktur digital terdepan.
+            </p>
+</div>
+<div>
+<h4 class="font-label text-label-caps text-primary mb-6 uppercase">Layanan</h4>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Transportasi FTL &amp; LTL</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Logistik Laut &amp; Udara</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Project Cargo</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Pergudangan WMS</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-label-caps text-primary mb-6 uppercase">Perusahaan</h4>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Tentang Kami</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Karir</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Jaringan Nasional</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-label-caps text-primary mb-6 uppercase">Bantuan</h4>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">E-Tracking</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Syarat &amp; Ketentuan</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-all font-body text-body-sm" href="#">Asuransi Transit</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto mt-12 pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body text-body-sm text-on-surface-variant">
+            © 2024 Perdana Prima Express. Integrator Rantai Pasok Multi-modal. Hak Cipta Dilindungi.
+        </p>
+<div class="flex gap-6">
+<a class="material-symbols-outlined text-on-surface-variant hover:text-primary" href="#">public</a>
+<a class="material-symbols-outlined text-on-surface-variant hover:text-primary" href="#">verified_user</a>
+</div>
+</div>
+</footer>
+<script>
+    const trackingInput = document.querySelector('input[type="text"]');
+    const inputWrapper = trackingInput?.parentElement;
+    
+    if (trackingInput && inputWrapper) {
+        trackingInput.addEventListener('focus', () => {
+            inputWrapper.classList.add('ring-2', 'ring-primary', 'ring-opacity-20');
+        });
+        trackingInput.addEventListener('blur', () => {
+            inputWrapper.classList.remove('ring-2', 'ring-primary', 'ring-opacity-20');
+        });
+    }
+</script>
+</body></html>

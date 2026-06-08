@@ -1,0 +1,55 @@
+<header class="w-full top-0 sticky z-50 bg-surface border-b border-outline-variant">
+  <nav class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex items-center justify-between h-20">
+
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-3">
+      <span class="font-display font-bold text-on-primary bg-primary w-10 h-10 flex items-center justify-center shrink-0 text-sm">PP</span>
+      <span class="font-headline font-bold text-primary text-lg leading-tight">Perdana Prima<br><small class="font-label text-xs text-secondary tracking-[0.15em] font-semibold">EXPRESS</small></span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <div class="hidden md:flex items-center gap-8">
+      {% set navLinks = [
+        { href: "/tentang-kami/", label: "Tentang Kami" },
+        { href: "/layanan/",      label: "Layanan"      },
+        { href: "/tarif/",        label: "Tarif"        },
+        { href: "/cabang/",       label: "Cabang"       }
+      ] %}
+      {% for link in navLinks %}
+        {% if page.url == link.href or (link.href != "/" and page.url.startsWith(link.href)) %}
+          <a href="{{ link.href }}" class="font-body text-body-md text-primary font-bold border-b-2 border-primary pb-1">{{ link.label }}</a>
+        {% else %}
+          <a href="{{ link.href }}" class="font-body text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200">{{ link.label }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- CTA + Mobile Toggle -->
+    <div class="flex items-center gap-3">
+      <button class="md:hidden material-symbols-outlined text-on-surface-variant p-1" id="nav-toggle" aria-label="Menu">menu</button>
+      <a href="https://wa.me/{{ site.wa.bandung.number }}?text={{ site.wa.bandung.text }}"
+         class="bg-primary text-on-primary px-5 py-2.5 font-bold text-body-md scale-95 active:scale-90 transition-transform">
+        Pesan Sekarang
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="hidden md:hidden bg-surface border-t border-outline-variant" id="mobile-nav">
+    <div class="px-margin-mobile py-6 flex flex-col gap-5">
+      <a href="/tentang-kami/"   class="font-body text-body-md text-on-surface-variant hover:text-primary">Tentang Kami</a>
+      <a href="/layanan/"        class="font-body text-body-md text-on-surface-variant hover:text-primary">Layanan</a>
+      <a href="/tarif/"          class="font-body text-body-md text-on-surface-variant hover:text-primary">Tarif</a>
+      <a href="/cabang/"         class="font-body text-body-md text-on-surface-variant hover:text-primary">Cabang</a>
+      <a href="/peluang-bisnis/" class="font-body text-body-md text-on-surface-variant hover:text-primary">Peluang Bisnis</a>
+    </div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var btn = document.getElementById('nav-toggle');
+    var menu = document.getElementById('mobile-nav');
+    if (btn && menu) btn.addEventListener('click', function() { menu.classList.toggle('hidden'); });
+  })();
+</script>

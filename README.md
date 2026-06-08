@@ -1,6 +1,6 @@
-# Buana Raya Express — Situs Statis
+# Perdana Prima Express — Situs Statis
 
-Situs **murni HTML statis** untuk PT Buana Raya Express (jasa pengiriman barang, paket, kargo). Di-host di GitHub, di-deploy lewat **Cloudflare Pages**. Tidak butuh build step di deploy — file `*/index.html` adalah artefak final yang langsung disajikan.
+Situs **murni HTML statis** untuk PT Perdana Prima Express (jasa pengiriman barang, paket, kargo). Di-host di GitHub, di-deploy lewat **Cloudflare Pages**. Tidak butuh build step di deploy — file `*/index.html` adalah artefak final yang langsung disajikan.
 
 ## Struktur
 - `index.html` + folder `*/index.html` → tiap halaman (URL trailing-slash sama dengan situs WordPress lama).
@@ -34,7 +34,7 @@ Letakkan di `assets/img/` (dirujuk oleh schema & Open Graph):
 ## ⭐ Review bintang di Google — cara yang SAH (PENTING)
 Situs ini **sengaja tidak memasang rating palsu**. Bintang di hasil Google untuk bisnis lokal berasal dari **Google Business Profile (GBP)**, bukan markup buatan. Markup rating palsu/tak-tampil melanggar pedoman Google dan berisiko **penalti yang menjatuhkan seluruh ranking**.
 
-**Sudah terhubung:** tombol "Tulis Ulasan di Google", "Lihat Ulasan di Google Maps", dan peta di halaman `/cabang/` sudah mengarah ke listing Google Maps resmi PT Buana Raya Express (CID `16210734692532484167`, dari URL Maps yang Anda berikan). Konstanta `GMAPS_PLACE` & `GMAPS_EMBED` ada di atas `build.mjs`.
+**Sudah terhubung:** tombol "Tulis Ulasan di Google", "Lihat Ulasan di Google Maps", dan peta di halaman `/cabang/` sudah mengarah ke listing Google Maps resmi PT Perdana Prima Express (CID `16210734692532484167`, dari URL Maps yang Anda berikan). Konstanta `GMAPS_PLACE` & `GMAPS_EMBED` ada di atas `build.mjs`.
 
 Langkah agar bintang muncul di hasil pencarian:
 1. **Klaim/verifikasi Google Business Profile** cabang Bandung (dan buat untuk Jakarta & Surabaya) di business.google.com — listing-nya sudah ada, tinggal diklaim.

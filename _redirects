@@ -1,4 +1,4 @@
-# Cloudflare Pages redirects — Buana Raya Express
+# Cloudflare Pages redirects — Perdana Prima Express
 # Kanonikalisasi www -> non-www (301 permanen)
 https://www.buanaraya.com/*  https://tendra8.github.io/:splat  301!
 

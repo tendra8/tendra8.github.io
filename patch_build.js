@@ -19,8 +19,8 @@ content = content.replace(
   /const orgGraph = `\{"@type":"Organization"[^`]+`;/,
   `const orgGraph = (slug) => {
   const { rating, reviews } = getRatingData(slug);
-  return \`{"@type":"Organization","@id":"\${SITE}/#organization","name":"PT Buana Raya Express","url":"\${SITE}/","logo":"\${SITE}/assets/img/logo.png","description":"Jasa pengiriman barang, paket, dan kargo via udara, laut, dan darat ke seluruh Indonesia.","telephone":"+62-821-3020-0030","sameAs":[],"aggregateRating":{"@type":"AggregateRating","ratingValue":"\${rating}","bestRating":"5","ratingCount":\${reviews}}},
-    {"@type":"WebSite","@id":"\${SITE}/#website","url":"\${SITE}/","name":"Buana Raya Express","publisher":{"@id":"\${SITE}/#organization"},"inLanguage":"id-ID"}\`;
+  return \`{"@type":"Organization","@id":"\${SITE}/#organization","name":"PT Perdana Prima Express","url":"\${SITE}/","logo":"\${SITE}/assets/img/logo.png","description":"Jasa pengiriman barang, paket, dan kargo via udara, laut, dan darat ke seluruh Indonesia.","telephone":"+62-821-3020-0030","sameAs":[],"aggregateRating":{"@type":"AggregateRating","ratingValue":"\${rating}","bestRating":"5","ratingCount":\${reviews}}},
+    {"@type":"WebSite","@id":"\${SITE}/#website","url":"\${SITE}/","name":"Perdana Prima Express","publisher":{"@id":"\${SITE}/#organization"},"inLanguage":"id-ID"}\`;
 };`
 );
 

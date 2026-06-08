@@ -1,0 +1,61 @@
+<footer class="bg-surface-container-highest border-t border-outline-variant">
+  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 grid grid-cols-1 md:grid-cols-4 gap-gutter">
+
+    <!-- Brand -->
+    <div class="md:col-span-1">
+      <a href="/" class="flex items-center gap-3 mb-6">
+        <span class="font-display font-bold text-on-primary bg-primary w-9 h-9 flex items-center justify-center shrink-0 text-xs">PP</span>
+        <span class="font-headline font-bold text-primary leading-tight">Perdana Prima<br><small class="font-label text-xs text-secondary tracking-[0.15em]">EXPRESS</small></span>
+      </a>
+      <p class="font-body text-body-sm text-on-surface-variant leading-relaxed">
+        Jasa pengiriman barang, paket, dan kargo via udara, laut, dan darat ke seluruh Indonesia — khususnya Kalimantan, Sulawesi, Bali, dan Papua.
+      </p>
+    </div>
+
+    <!-- Layanan -->
+    <div>
+      <h4 class="font-label text-label-caps text-primary mb-6 uppercase tracking-wider">Layanan</h4>
+      <ul class="space-y-3">
+        <li><a href="/layanan/" class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Kargo Udara</a></li>
+        <li><a href="/layanan/" class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Kargo Laut</a></li>
+        <li><a href="/layanan/" class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Kargo Darat</a></li>
+        <li><a href="/tarif/"   class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Daftar Tarif</a></li>
+      </ul>
+    </div>
+
+    <!-- Perusahaan -->
+    <div>
+      <h4 class="font-label text-label-caps text-primary mb-6 uppercase tracking-wider">Perusahaan</h4>
+      <ul class="space-y-3">
+        <li><a href="/tentang-kami/"    class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Tentang Kami</a></li>
+        <li><a href="/cabang/"          class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Cabang</a></li>
+        <li><a href="/peluang-bisnis/"  class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Peluang Bisnis</a></li>
+        <li><a href="/syarat-dan-ketentuan/" class="font-body text-body-sm text-on-surface-variant hover:text-primary transition-all">Syarat &amp; Ketentuan</a></li>
+      </ul>
+    </div>
+
+    <!-- Kontak -->
+    <div>
+      <h4 class="font-label text-label-caps text-primary mb-6 uppercase tracking-wider">Hubungi Kami</h4>
+      <ul class="space-y-4">
+        {% for branch in site.branches %}
+        <li>
+          <p class="font-body text-body-sm font-semibold text-on-surface">{{ branch.city }}</p>
+          <p class="font-body text-body-sm text-on-surface-variant">{{ branch.address }}</p>
+          <a href="https://wa.me/{{ site.wa[branch.waKey].number }}?text={{ site.wa[branch.waKey].text }}"
+             class="font-body text-body-sm text-primary hover:underline">
+            WA {{ site.wa[branch.waKey].label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-6 border-t border-outline-variant text-center md:text-left">
+    <p class="font-body text-body-sm text-on-surface-variant">
+      &copy; <span id="footer-year"></span> PT Perdana Prima Express. Seluruh hak cipta dilindungi.
+    </p>
+  </div>
+</footer>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
